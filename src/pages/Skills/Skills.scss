@@ -1,0 +1,23 @@
+.card {
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #777;
+
+    span {
+      font-size: 2rem;
+      padding-top: 0.4rem;
+    }
+  }
+}
+
+.card__tools {
+  text-align: left;
+
+  &--tool:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,72 @@
+.portfolio-span {
+  color: var(--secondary-color);
+}
+
+.cards__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100rem;
+  }
+}
+
+.card {
+  height: 36rem;
+  width: 27rem;
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: var(--white-color);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+  @media screen and (min-width: 1024px) {
+    &:hover {
+      box-shadow: 0 0 25px rgb(0 0 0 / 20%);
+    }
+  }
+
+  &__image {
+    height: 23rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  &__description {
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &--title {
+      font-weight: 700;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &--live,
+    &--github {
+      height: 2.5rem;
+      width: 2.5rem;
+
+      svg {
+        height: 100%;
+        width: 100%;
+        color: #000;
+      }
+    }
+  }
+}
