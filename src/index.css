@@ -43,3 +43,61 @@ body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
+
+/* GLOBAL STYLES */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-5);
+}
+
+/* 800px */
+@media screen and (min-width: 50em) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 0.875rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: 0.16rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+  }
+}
+/*  global classes */
