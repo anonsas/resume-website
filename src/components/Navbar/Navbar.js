@@ -36,11 +36,18 @@ function Navbar() {
         </ul>
 
         <ul className="navbar__socials">
-          <a href="https://www.twitter.com" class="fab fa-facebook"></a>
-          <a href="https://www.twitter.com" class="fab fa-twitter"></a>
-          <a href="https://www.twitter.com" class="fab fa-behance"></a>
-          <a href="https://www.twitter.com" class="fab fa-linkedin"></a>
-          <a href="https://www.twitter.com" class="fab fa-sketch"></a>
+          <a
+            href="https://github.com/anonsas"
+            target="_blank"
+            class="fa-brands fa-github"
+            rel="noreferrer"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/lukjanov1337/"
+            target="_blank"
+            class="fa-brands fa-linkedin"
+            rel="noreferrer"
+          ></a>
         </ul>
       </div>
     </nav>

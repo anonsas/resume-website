@@ -1,5 +1,4 @@
 .app__wrapper {
-  width: 100%;
   padding: 4rem 2rem;
   text-align: center;
   background-color: var(--bg-color);
@@ -8,7 +7,8 @@
   flex-direction: column;
   row-gap: 4rem;
 
-  @media screen and (min-width: 1024px) {
+  // 1024px
+  @media screen and (min-width: 64em) {
     row-gap: 6rem;
   }
 }

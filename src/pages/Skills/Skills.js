@@ -36,7 +36,7 @@ function Skills() {
           <div className="card__tools">
             <p className="card__tools--tool">Node.js</p>
             <p className="card__tools--tool">Express</p>
-            <p className="card__tools--tool">MySql</p>
+            <p className="card__tools--tool">MySQL</p>
             <p className="card__tools--tool">MongoDB</p>
           </div>
         </div>

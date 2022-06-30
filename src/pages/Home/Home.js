@@ -6,10 +6,10 @@ function Home() {
   return (
     <main className="app__wrapper">
       <div className="home__heading">
-        <h1 className="heading-1">
+        <h1>
           Igor <span>Lukjanov</span>
         </h1>
-        <h2 className="heading-2">Frontend Developer</h2>
+        <h2>Frontend Developer</h2>
       </div>
 
       <div className="home__image">
@@ -17,8 +17,16 @@ function Home() {
       </div>
 
       <div className="home__actions">
-        <a href="https://github.com/anonsas">Github</a>
-        <a href="https://www.linkedin.com/in/lukjanov1337">LinkedIn</a>
+        <a href="https://github.com/anonsas" target="_blank" rel="noreferrer">
+          Github
+        </a>
+        <a
+          href="https://www.linkedin.com/in/lukjanov1337"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
       </div>
     </main>
   );
